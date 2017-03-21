@@ -11,7 +11,7 @@ app.config(function($routeProvider){
     .when('/add', {
         title : 'Añadir Usuario',
         templateUrl : 'templates/add.html',
-        controller : 'addControlller'
+        controller : 'addController'
     })
     .when('/edit/:id', {
         title : 'Editar Usuario',
